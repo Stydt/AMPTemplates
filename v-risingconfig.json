@@ -3,18 +3,18 @@
     "DisplayName": "Game Difficulty",
     "Category": "V Rising:stadia_controller",
     "Subcategory": "Gameplay:joystick:1",
-    "Description": "Defines the behaviour of bosses.",
+    "Description": "Difficulty preset used when creating/initializing a world. V Rising may normalize this to numeric values in save files after first boot.",
     "Keywords": "",
     "FieldName": "GameDifficulty",
     "InputType": "enum",
     "IsFlagArgument": false,
     "ParamFieldName": "GameDifficulty",
     "IncludeInCommandLine": false,
-    "DefaultValue": "0",
+    "DefaultValue": "Normal",
     "EnumValues": {
-      "0": "Relaxed (0) - Relaxed Difficulty",
-      "1": "Normal (1) - Normal Difficulty",
-      "2": "Brutal (2) - Brutal Difficulty (called Hard in code)"
+      "Relaxed": "Relaxed - Relaxed Difficulty",
+      "Normal": "Normal - Normal Difficulty",
+      "Hard": "Hard - Brutal Difficulty"
     }
   },
   {
