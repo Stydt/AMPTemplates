@@ -235,6 +235,23 @@
     }
   },
   {
+    "DisplayName": "Bat Bound Shards",
+    "Category": "V Rising:stadia_controller",
+    "Subcategory": "Gameplay:joystick:1",
+    "Description": "",
+    "Keywords": "",
+    "FieldName": "BatBoundShards",
+    "InputType": "checkbox",
+    "IsFlagArgument": false,
+    "ParamFieldName": "BatBoundShards",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "false",
+    "EnumValues": {
+      "True": "true",
+      "False": "false"
+    }
+  },
+  {
     "DisplayName": "Allow Global Chat",
     "Category": "V Rising:stadia_controller",
     "Subcategory": "Gameplay:joystick:1",
