@@ -21,7 +21,17 @@
     },
     {
         "Protocol": "TCP",
-        "Port": 25575,
+        "Port": 9879,
+        "Offset": 0,
+        "Range": 1,
+        "Ref": "API Port",
+        "Name": "API Port",
+        "Description": "API Connection Port",
+        "ChildPorts": null
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 9878,
         "Offset": 0,
         "Range": 1,
         "Ref": "RemoteAdminPort",
